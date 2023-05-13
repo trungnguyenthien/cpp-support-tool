@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 3.10)
+project (SUPPORT-TOOL)
+set(CMAKE_CXX_STANDARD 11)
+add_subdirectory (src)
+add_executable(SUPPORT-TOOL src/main.cpp)
