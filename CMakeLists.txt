@@ -3,6 +3,7 @@ set(CMAKE_CXX_STANDARD 14)
 project (MYTOOL)
 add_subdirectory (src)
 add_executable(MYTOOL src/main.cpp)
+target_compile_options(MYTOOL PRIVATE -g)
 
 
 #LINK GEOS
