@@ -6,3 +6,5 @@
   - CMAKE: brew install cmake
   - GDB: brew install gdb
 
+## Library Depends
+https://libgeos.org/usage/install/

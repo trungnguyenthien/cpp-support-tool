@@ -1,18 +1,20 @@
 {
+  "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++: g++-13 build and debug active file",
+      "name": "(gdb) Debug C++14",
       "type": "cppdbg",
       "request": "launch",
       "program": "${command:cmake.launchTargetPath}",
-      "args": [],
+      "args": [
+        "-std=c++14",
+        "-g"
+      ],
       "stopAtEntry": false,
-      "cwd": "${fileDirname}",
+      "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": false,
-      "MIMode": "lldb",
-      "preLaunchTask": "C/C++: g++-13 build active file"
+      "MIMode": "lldb"
     }
-  ],
-  "version": "2.0.0"
+  ]
 }
